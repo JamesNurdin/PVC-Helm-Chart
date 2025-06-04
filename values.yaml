@@ -1,8 +1,8 @@
-# Default values for lakehouse.
+# Default values for Trino.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
-instanceName: lakehouse-a
+instanceName: Trino-a
     
 pvc:
   iceberg:
