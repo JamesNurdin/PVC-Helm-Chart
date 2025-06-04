@@ -1,5 +1,5 @@
 apiVersion: v2
-name: pvc
+name: PVC-Helm-Chart
 description: A Helm chart for deploying a tpcds dataset on a pvc
 type: application
 version: 0.1.0
