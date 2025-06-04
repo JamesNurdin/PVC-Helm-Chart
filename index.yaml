@@ -14,7 +14,7 @@ entries:
   tpcds:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-06-04T16:26:57.9497149+01:00"
+    created: "2025-06-04T16:28:33.9393293+01:00"
     description: A Helm chart for deploying a tpcds dataset on a pvc
     digest: e5d97a70ccf8456b8f038a1eb08730c7cdff0a8509a842d3a194d3e224c65725
     name: tpcds
@@ -22,4 +22,4 @@ entries:
     urls:
     - https://JamesNurdin.github.io/pvc/pvc-0.1.0.tgz
     version: 0.1.0
-generated: "2025-06-04T16:26:57.9492038+01:00"
+generated: "2025-06-04T16:28:33.9382151+01:00"
