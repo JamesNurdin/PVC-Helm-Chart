@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "instanceName": {
+      "type": "string"
+    },
+    "pvc": {
+      "type": "object",
+      "properties": {
+        "iceberg": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "size": {
+              "type": "string"
+            },
+            "storageClass": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "name",
+            "size",
+            "storageClass"
+          ]
+        }
+      },
+      "required": [
+        "iceberg"
+      ]
+    }
+  },
+  "required": [
+    "instanceName",
+    "pvc"
+  ]
+}

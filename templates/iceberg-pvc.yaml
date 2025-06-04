@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: {{ .Values.pvc.iceberg.name }}
+  namespace: pgr24james
+spec:
+  accessModes:
+    - ReadWriteMany
+  resources:
+    requests:
+      storage: {{ .Values.pvc.iceberg.size }}
+  storageClassName: {{ .Values.pvc.iceberg.storageClass }}
