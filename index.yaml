@@ -9,6 +9,6 @@ entries:
     name: pvc
     type: application
     urls:
-    - https://jamesnurdin.github.io/PVC-Helm-chart/tpcds-0.1.0.tgz
+    - https://jamesnurdin.github.io/PVC-Helm-chart/pvc-0.1.0.tgz
     version: 0.1.0
 generated: "2025-06-04T15:18:59.0583748+01:00"
