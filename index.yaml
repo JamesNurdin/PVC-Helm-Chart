@@ -3,12 +3,12 @@ entries:
   PVC-Helm-Chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-06-20T15:54:58.0055999+01:00"
+    created: "2025-06-22T16:32:29.0055604+01:00"
     description: A Helm chart for deploying a tpcds dataset on a pvc
-    digest: 4f356386a13d5e717111aa6b667aca70260dc06fa850701083e2fd4e7f33ebde
+    digest: 45f8ae596e7d59841bca5bbdd3093d74d0d2d01b3c166cc4bdf5df513c9f6854
     name: PVC-Helm-Chart
     type: application
     urls:
     - https://JamesNurdin.github.io/PVC-Helm-Chart/PVC-Helm-Chart-0.1.0.tgz
     version: 0.1.0
-generated: "2025-06-20T15:54:58.0037844+01:00"
+generated: "2025-06-22T16:32:29.0045612+01:00"
